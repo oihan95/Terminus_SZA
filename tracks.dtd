@@ -1,0 +1,10 @@
+<!ELEMENT kantak (kanta)*>
+<!ELEMENT kanta (titulua, artista, album, generoa, urtea, diskografika, irudia)>
+<!ATTLIST kanta id ID #REQUIRED>
+<!ELEMENT titulua (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT generoa (#PCDATA)>
+<!ELEMENT urtea (#PCDATA)>
+<!ELEMENT diskografika (#PCDATA)>
+<!ELEMENT irudia (#PCDATA)>

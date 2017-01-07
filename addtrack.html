@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+    	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Terminus - Gehitu kanta</title>
+    	<link rel='stylesheet' type='text/css' href='styles/style.css' />
+    	<link rel="stylesheet" type="text/css" href="styles/form.css">
+		<script type="text/javascript" src="form.js"></script>
+	</head>
+  	<body>
+	  	<div class = "header">
+			<div id="logo">Terminus</div>
+				<div class="navbar">
+					<a href="index.html">Hasiera</a>
+					<a href="tracks.php">Kantak</a>
+					<a href="addtrack.html">Gehitu kanta</a>
+					<a href="search.html">Bilatu</a>
+					<a href="credits.html">Guri buruz</a>
+				</div>
+		</div>
+		<div class="wrapper">
+			<h2>Gehitu kanta</h2>
+			<br>
+			<form enctype="multipart/form-data" name = "erregistro" id="erregistro" onSubmit = "return balidatu()" action="addtrack.php" method="post" class="elegant-aero">
+				<p>Titulua (*):</p>
+				<p><input class="input" type="text" name="title" id="titulua" value=""/></p>
+				<p>Artista (*):</p>
+				<p><input class="input" type="text" name="artist" id="artista" value=""/></p>
+				<p>Album-a (*):</p>
+				<p><input class="input" type="text" name="album" id="albuma" value=""/></p>
+				<p>Generoa (*):</p>
+				<div class="select-style">
+					<select id="generoa" name="genre">
+	  					<option value="House">House</option>
+	  					<option value="Progressive House">Progressive House</option>
+	  					<option value="Techno">Techno</option>
+	  					<option value="Tech House">Tech House</option>
+	  					<option value="Electronica">Electronica</option>
+	  					<option value="Electro House">Electro House</option>
+	  					<option value="Dubstep">Dubstep</option>
+	  					<option value="Trance">Trance</option>
+	  					<option value="Deep House">Deep House</option>
+	  					<option value="Hard Dance">Hard Dance</option>
+					</select>
+				</div>
+				<br />
+				<p>Urtea (*):</p>
+				<div class="select-style">
+					<select id="urtea" name="year">
+					<script>
+					var myDate = new Date();
+					var year = myDate.getFullYear();
+					for(var i = year; i > 1950; i--){
+						document.write('<option value="'+i+'">'+i+'</option>');
+					}
+					</script>
+					</select>
+				</div>
+				<br />
+				<p>Diskografika (*):</p>
+				<p><input class="input" type="text" name="label" id="diskografika" value=""/></p>
+				<p><input type="file" name="irudia_ona" id="igoirudi" accept="image/*" onchange="irudiaikusi(event)"></p>
+				<br>
+				<img id="irudia" width="350" alt="">
+				<br>
+				<p><button class="button" type="submit">Bidali</button></p>
+				<br>
+				<p>(*)Lauki guztiak bete behar dira</p>
+			</form>
+		</div>
+	</body>
+</html>

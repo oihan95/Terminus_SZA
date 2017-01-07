@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kantak SYSTEM "tracks.dtd">
+<kantak azkenid="12">
+	<kanta id="0">
+		<titulua>Teach Me (Original Mix)</titulua>
+		<artista>Adam Beyer</artista>
+		<album>Teach Me</album>
+		<generoa>Techno</generoa>
+		<urtea>2014</urtea>
+		<diskografika>Drumcode</diskografika>
+		<irudia>img/covers/teachme.jpg</irudia>
+	</kanta>
+	<kanta id="1">
+		<titulua>In The Reds (Original Mix)</titulua>
+		<artista>Cirez D</artista>
+		<album>In The Reds</album>
+		<generoa>Techno</generoa>
+		<urtea>2016</urtea>
+		<diskografika>Mouseville</diskografika>
+		<irudia>img/covers/inthereds.jpg</irudia>
+	</kanta>
+	<kanta id="2">
+		<titulua>Strobe (Original Mix)</titulua>
+		<artista>deadmau5</artista>
+		<album>For Lack Of A Better Name</album>
+		<generoa>Tech House</generoa>
+		<urtea>2009</urtea>
+		<diskografika>mau5trap</diskografika>
+		<irudia>img/covers/ForLackOfABetterName.jpg</irudia>
+	</kanta>
+<kanta id="3"><titulua>Aspen (Original Mix)</titulua><artista>Attlas</artista><album>Aspen</album><generoa>Progressive House</generoa><urtea>2016</urtea><diskografika>mau5trap</diskografika><irudia>img/covers/Aspen.jpg</irudia></kanta><kanta id="4"><titulua>Man With The Red Face (Original Mix)</titulua><artista>Mark Knight and Funkagenda</artista><album>Man With The Red Face</album><generoa>Tech House</generoa><urtea>2008</urtea><diskografika>Toolroom Records</diskografika><irudia>img/covers/ManWithTheRedFace.jpg</irudia></kanta><kanta id="5"><titulua>Crocodile Tears (Original)</titulua><artista>Kryder</artista><album>Crocodile Tears</album><generoa>Progressive House</generoa><urtea>2016</urtea><diskografika>Axtone Records</diskografika><irudia>img/covers/CrocodileTears.jpg</irudia></kanta><kanta id="6"><titulua>Pjanoo (Club Mix)</titulua><artista>Eric Prydz</artista><album>Pjanoo</album><generoa>House</generoa><urtea>2008</urtea><diskografika>Pryda Recordings</diskografika><irudia>img/covers/Pjanoo-Single.png</irudia></kanta><kanta id="7"><titulua>Hanover (Original Mix)</titulua><artista>Jeremy Olander</artista><album>Hanover EP</album><generoa>Techno</generoa><urtea>2016</urtea><diskografika>Suara</diskografika><irudia>img/covers/HanoverEP.jpg</irudia></kanta><kanta id="8"><titulua>Reverie (Michael Calfan Remix)</titulua><artista>Marcus Schossow</artista><album>Reverie (Michael Calfan Remix)</album><generoa>Progressive House</generoa><urtea>2013</urtea><diskografika>Axtone Records</diskografika><irudia>img/covers/Reverie(MichaelCalfanRemix).jpg</irudia></kanta><kanta id="9"><titulua>Lillo (Original Mix)</titulua><artista>Pryda</artista><album>Lillo</album><generoa>Progressive House</generoa><urtea>2016</urtea><diskografika>Pryda Recordings</diskografika><irudia>img/covers/Lillo.jpg</irudia></kanta><kanta id="10"><titulua>Insomnia</titulua><artista>Faithless</artista><album>Reverence</album><generoa>Techno</generoa><urtea>1996</urtea><diskografika>Jive Records</diskografika><irudia>img/covers/Reverence.jpg</irudia></kanta><kanta id="11"><titulua>Tiger</titulua><artista>Steve Angello</artista><album>Wild Youth</album><generoa>Progressive House</generoa><urtea>2016</urtea><diskografika>Size Records</diskografika><irudia>img/covers/WildYouth.jpg</irudia></kanta><kanta id="12"><titulua>Neverdeader (Original Mix)</titulua><artista>BlackGummy feat. Brooks</artista><album>We Are Friends: Vol. 5</album><generoa>Electro House</generoa><urtea>2016</urtea><diskografika>mau5trap</diskografika><irudia>img/covers/WeAreFriends_Volume5.jpg</irudia></kanta></kantak>
