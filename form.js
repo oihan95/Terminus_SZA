@@ -15,6 +15,18 @@ function balidatu(){
 		alert("Albuma ezin da hutsik egon");
 		return false;
 	}
+
+	var urtea = erregistro.urtea.value;
+	if (urtea == null || urtea == "") {
+		alert("Urtea ezin da hutsik egon");
+		return false;
+		var oraingourtea = (new Date).getFullYear();
+		if (urtea > oraingourtea || urtea < 1950) {
+			alert("Urtea gaizki jarrita dago");
+			return false;
+		}
+	}
+
 	var diskografika = erregistro.diskografika.value;
 	if (diskografika == null || diskografika == "") {
 		alert("Diskografika ezin da hutsik egon");
